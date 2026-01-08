@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>PayloadContent</key>
+  <array>
+    <dict>
+      <key>DNSSettings</key>
+      <dict>
+        <key>DNSProtocol</key>
+        <string>HTTPS</string>
+        <key>ServerURL</key>
+        <string>https://doh.cleanbrowsing.org/doh/security-filter/</string>
+      </dict>
+      <key>PayloadType</key>
+      <string>com.apple.dnsSettings.managed</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+      <key>PayloadIdentifier</key>
+      <string>dns.cleanbrowsing.security-filter.2026</string>
+      <key>PayloadUUID</key>
+      <string>10344B80-2481-4600-8AEC-769266B4B44B</string>
+      <key>PayloadDisplayName</key>
+      <string>CleanBrowsing Security Filter - DoH</string>
+      <key>PayloadDescription</key>
+      <string>فعال‌سازی DNS over HTTPS فیلتر امنیتی CleanBrowsing</string>
+      <key>PayloadScope</key>
+      <string>System</string>
+      <key>ProhibitDisablement</key>
+      <false/>
+    </dict>
+  </array>
+
+  <key>PayloadType</key>
+  <string>Configuration</string>
+  <key>PayloadVersion</key>
+  <integer>1</integer>
+  <key>PayloadIdentifier</key>
+  <string>profile.cleanbrowsing.security.2026</string>
+  <key>PayloadUUID</key>
+  <string>84F22B81-4759-4877-B015-FD14C4F062DE</string>
+  <key>PayloadDisplayName</key>
+  <string>CleanBrowsing Security DNS (DoH)</string>
+  <key>PayloadDescription</key>
+  <string>نصب پروفایل DNS رمزنگاری‌شده CleanBrowsing Security Filter</string>
+
+  <!-- اجازه‌ی حذف دستی از Settings > General > VPN & Device Management -->
+  <key>PayloadRemovalDisallowed</key>
+  <false/>
+</dict>
+</plist>
